@@ -1,0 +1,32 @@
+
+
+.container {
+    margin: auto;
+    margin-top: 2rem;
+
+    width: 300px;
+    padding: 0.5rem 1rem;
+    border: 2px solid skyblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+input {
+    margin: 0.7rem 0;
+    height: 35px;
+    padding: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+    height: 35px;
+    margin: 0.7rem 0;
+    background-color: skyblue;
+    border: none;
+    color: #333;
+}
+
+button:hover {
+    background-color:rgb(76, 191, 236) ;
+}
